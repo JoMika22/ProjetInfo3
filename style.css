@@ -1,0 +1,121 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #FFF8E7;
+    color: #222222;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #C1121F, #9B0E1A);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+/* NAVIGATION */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #FFD166;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* SECTIONS */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* TITRES */
+h2 {
+    color: #C1121F;
+    margin-bottom: 20px;
+    border-left: 5px solid #F4A261;
+    padding-left: 10px;
+}
+
+/* BARRE RECHERCHE */
+.search-bar input {
+    padding: 12px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 25px;
+    border: 2px solid #F4A261;
+    outline: none;
+}
+
+/* CARTES PRODUITS */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* BOUTONS */
+button {
+    background: linear-gradient(90deg, #C1121F, #F4A261);
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #9B0E1A, #FFD166);
+}
+
+/* FORMULAIRES */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 15px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* FOOTER */
+footer {
+    background-color: #C1121F;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
