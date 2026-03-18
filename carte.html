@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carte - Les Saveurs du Soleil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>La Carte</h1>
+        <p class="sous-titre">Découvrez nos spécialités</p>
+    </header>
+    
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="carte.html">Carte</a>
+        <a href="inscriptions.html">Inscription</a>
+        <a href="connexion.html">Connexion</a>
+        <a href="profil.html">Profil</a>
+        <a href="notation.html">Notation</a>
+        <a href="restaurateur.html">Restaurateur</a>
+        <a href="livreur.html">Livreur</a>
+        <a href="admin.html">Admin</a>
+    </nav>
+
+    <section class="container">
+        
+        <div class="card recherche-container recherche-large">
+            <p class="recherche-label">Rechercher et filtrer</p>
+            <input type="text" placeholder="Chercher un produit..." class="recherche-input input-reduit">
+            
+            <select class="select-filtre">
+                <option value="">Type de plat </option>
+                <option value="entree">Entrées</option>
+                <option value="plat">Plats de résistance</option>
+                <option value="dessert">Desserts</option>
+                <option value="boissons">Boissons</option>
+            </select>
+            
+            <select class="select-filtre">
+                <option value="">Allergènes </option>
+                <option value="gluten">Sans Gluten</option>
+                <option value="lactose">Sans Lactose</option>
+                <option value="arachide">Sans Arachides</option>
+            </select>
+        </div>
+
+
+        <h2 class="titre-centre titre-categorie">🥗 Nos Entrées</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://cdn.chefclub.tools/uploads/recipes/cover-thumbnail/0a1c1e2d-b279-4c89-87da-46965aba7d96.jpg" alt="Burrata et jambon cru">
+                <div class="product-info texte-centre">
+                    <h3>Buratta et Jambon cru : 8.90€</h3>
+                    <p><em>Ingrédients : Buratta, Jambon, Vinaigre balsamic</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.eatself.com/1597/Products_73729_materiasrepositorio-1563547891.jpeg" alt="Accras de morue">
+                <div class="product-info texte-centre">
+                    <h3>Accrats de morue : 5.90€</h3>
+                    <p><em>Ingrédients : Morue, Pomme de terre</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.kilometre-0.fr/wp-content/uploads/2019/01/images20180617Cuisine_mart546.jpg" alt="Salade moldave">
+                <div class="product-info texte-centre">
+                    <h3>Salade moldave : 4.90€</h3>
+                    <p><em>Ingrédients : Betterave, Mayonnaise, Hareng fumé</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.la-cuisine-marocaine.com/photos-recettes/salade-tomate-concombre-marocaine.jpg" alt="Salade marocaine">
+                <div class="product-info texte-centre">
+                    <h3>Salade marocaine : 3.90€</h3>
+                    <p><em>Ingrédients : Tomate, Concombre, Olive</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+
+        <h2 class="titre-centre titre-categorie">🍲 Nos Plats de Résistance</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://sebplatform.api.groupe-seb.com/statics/82159e7f-4ddf-4bc9-b792-8f9ee58c88b8.png?w=1920&fit=scale" alt="Bacalhau à Brás">
+                <div class="product-info texte-centre">
+                    <h3>Bacalhau à Brás : 12.50€</h3>
+                    <p><em>Allergènes : Poisson, Œuf</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJHs0B7g8nv0QHIinCRIvamyTKTMIbQw9IDw&s" alt="Pizza Impériale">
+                <div class="product-info texte-centre">
+                    <h3>Pizza Impériale : 15€</h3>
+                    <p><em>Ingrédients : Oeuf, Jambon, Fromage, Tomate</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.aide-en-cuisine.fr/wp-content/uploads/2025/03/recette-couscous-marocain-1024x768.webp" alt="Couscous Royal">
+                <div class="product-info texte-centre">
+                    <h3>Couscous Royal : 12.90€</h3>
+                    <p><em>Ingrédients : Semoule, Viande, Légumes</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://soursweetbitter.com/wp-content/uploads/al_opt_content/IMAGE/soursweetbitter.com/wp-content/uploads/2024/05/francesinha1-1024x819.webp.bv_resized_ipad.webp.bv.webp?bv_host=soursweetbitter.com" alt="Francesinha">
+                <div class="product-info texte-centre">
+                    <h3>Francesinha de Luxe : 17€</h3>
+                    <p><em>Ingrédients : Oeuf, Jambon, Fromage</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://thumbs.dreamstime.com/b/mamaliga-nourriture-traditionnelle-roumaine-de-salaj-fait-par-le-lard-cormeal-et-frit-155046616.jpg" alt="Mămăligă">
+                <div class="product-info texte-centre">
+                    <h3>Mămăligă : 14.50€</h3>
+                    <p><em>Ingrédients : Semoule de maïs</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://assets.afcdn.com/recipe/20130130/59691_w1024h768c1cx256cy192.webp" alt="Sarmale">
+                <div class="product-info texte-centre">
+                    <h3>Sarmale : 12.90€</h3>
+                    <p><em>Ingrédients : Riz, Viande, Chou</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+
+        <h2 class="titre-centre titre-categorie">🍰 Nos Desserts</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://images.ctfassets.net/1p5r6txvlxu4/2AuCQgVaK08nA3Wgm7TJbr/7981b99d4a52359fe5dd1090dd2ec96a/Tiramisu_original.jpg?w=768&h=541&fm=webp&q=100&fit=fill&f=center" alt="Tiramisu">
+                <div class="product-info texte-centre">
+                    <h3>Tiramisu : 8.90€</h3>
+                    <p><em>Spécialité italienne au café</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.abelandcole.co.uk/media/11695_37039_m.jpg" alt="Pasteis de Nata">
+                <div class="product-info texte-centre">
+                    <h3>Pasteis de Nata (x6) : 7.80€</h3>
+                    <p><em>Tartelettes portugaises tièdes</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://creationhloua.com/wp-content/uploads/2024/10/chantilly-stracciatella-cremeuse-et-gourmande-en-quelques-minutes.jpg" alt="Stracciatella">
+                <div class="product-info texte-centre">
+                    <h3>Stracciatella : 6.90€</h3>
+                    <p><em>Glace onctueuse aux pépites de chocolat</em></p>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+
+        <h2 class="titre-centre titre-categorie">🍹 Nos Boissons</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/5e/e4/8e/5ee48e1cb3022b3c1f7ea2c4952ae765.jpg" alt="Eau">
+                <div class="product-info texte-centre">
+                    <h3>Eau 1.5L : 2€</h3>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://boutique.lapaiou-pizzeria.fr/images/produits/2045/1732117882-dsc08318.webp" alt="Ice Tea">
+                <div class="product-info texte-centre">
+                    <h3>Ice Tea 33 cL : 1.50€</h3>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.sommelleriedefrance.com/6009-large_default/marquis-des-leves-.jpg" alt="Vin blanc"> 
+                <div class="product-info texte-centre">
+                    <h3>Vin Blanc Marquis des Lèves 75cL : 35€</h3>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="pied-de-page">
+        © 2026 Les Saveurs du Soleil – Restaurant multiculturel
+    </footer>
+
+</body>
+</html>
