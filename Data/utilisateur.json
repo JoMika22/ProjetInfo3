@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "nom": "Dupont",
+        "prenom": "Jean",
+        "email": "jean.dupont@email.com",
+        "mot_de_passe": "$2y$10$6MgEIBysBlJ3xi9nW946Tuue9krHPYxsUQT.yiMB5NYwPRs2oIdMW",
+        "role": "client",
+        "adresse": "10 Bd du Port, 95000 Cergy",
+        "telephone": "0600000001",
+        "date_inscription": "2026-01-15",
+        "bloque": false
+    },
+    {
+        "id": 2,
+        "nom": "Silva",
+        "prenom": "Maria",
+        "email": "maria.s@email.com",
+        "mot_de_passe": "$2y$10$meBW6BUyAtEHAzJiHv.w1en22abS3p0YRQGTqHc.5W29DLGA06I1i",
+        "role": "client",
+        "adresse": "12 Avenue de l'Atlas, 95000 Cergy",
+        "telephone": "0600000002",
+        "date_inscription": "2026-02-10",
+        "bloque": false
+    },
+    {
+        "id": 3,
+        "nom": "Mansouri",
+        "prenom": "Ahmed",
+        "email": "ahmed.m@email.com",
+        "mot_de_passe": "$2y$10$xRkYzkXdx4crVd9O1eaakut5Ct6gaexZMCdwPgLzD4d\/0eh3zcEBa",
+        "role": "client",
+        "adresse": "5 Rue des Epices, 95000 Cergy",
+        "telephone": "0600000003",
+        "date_inscription": "2026-03-01",
+        "bloque": false
+    },
+    {
+        "id": 4,
+        "nom": "Popescu",
+        "prenom": "Elena",
+        "email": "elena.p@email.com",
+        "mot_de_passe": "$2y$10$hGq0OE0y3dskHiI2eeTvoe9q.lRLyXnm.\/UTf9VMQTiztdbeGBmUi",
+        "role": "client",
+        "adresse": "8 Allée des Carpates, 95000 Cergy",
+        "telephone": "0600000004",
+        "date_inscription": "2026-03-05",
+        "bloque": false
+    },
+    {
+        "id": 5,
+        "nom": "Rossi",
+        "prenom": "Luca",
+        "email": "luca.r@email.com",
+        "mot_de_passe": "$2y$10$aQLtEdPrJ14X5LvmqRqYQONsDNxwq2Fk2XmqX5wLHN3tqg\/gH\/2oa",
+        "role": "client",
+        "adresse": "2 Place de Rome, 95000 Cergy",
+        "telephone": "0600000005",
+        "date_inscription": "2026-03-10",
+        "bloque": false
+    },
+    {
+        "id": 6,
+        "nom": "Admin1",
+        "prenom": "Alice",
+        "email": "admin1@yumland.fr",
+        "mot_de_passe": "$2y$10$SWcuij.RKDihMIpupZqIteeVSyFPliY7bA\/Of7KG673VDKjtemCmu",
+        "role": "admin",
+        "adresse": "CY Tech",
+        "telephone": "",
+        "date_inscription": "2025-09-01",
+        "bloque": false
+    },
+    {
+        "id": 7,
+        "nom": "Admin2",
+        "prenom": "Robert",
+        "email": "admin2@yumland.fr",
+        "mot_de_passe": "$2y$10$g6rcHa1OaPQ6WEQtEGygb.nDPXoyobQNEtYjtQS2BQhQD6zMF9\/5m",
+        "role": "admin",
+        "adresse": "CY Tech",
+        "telephone": "",
+        "date_inscription": "2025-09-01",
+        "bloque": false
+    },
+    {
+        "id": 8,
+        "nom": "Chef",
+        "prenom": "Mario",
+        "email": "cuisine@yumland.fr",
+        "mot_de_passe": "$2y$10$XGf0IVteVma7MMIRysn7feYjdR.JppNS9dQv7TeDl0hnDbh0pBw6u",
+        "role": "restaurateur",
+        "adresse": "Cuisine Centrale",
+        "telephone": "",
+        "date_inscription": "2025-10-01",
+        "bloque": false
+    },
+    {
+        "id": 9,
+        "nom": "Transport",
+        "prenom": "Thomas",
+        "email": "livreur@yumland.fr",
+        "mot_de_passe": "$2y$10$K1oArRi4F2kDmurhKEDCEOh\/qxveUSM9LpTU1zGo\/pv5d9b28SS6W",
+        "role": "livreur",
+        "adresse": "Sur la route",
+        "telephone": "0700000000",
+        "date_inscription": "2025-11-01",
+        "bloque": false
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "date": "2026-05-31 11:41:33",
+        "type": "mauvais_mdp",
+        "message": "Echec de connexion pour l'email : test1@gmail.com"
+    },
+    {
+        "date": "2026-05-31 11:41:43",
+        "type": "mauvais_mdp",
+        "message": "Echec de connexion pour l'email : test1@gmail.com"
+    },
+    {
+        "date": "2026-05-31 11:43:26",
+        "type": "mauvais_mdp",
+        "message": "Echec de connexion pour l'email : elena.p@email.com"
+    },
+    {
+        "date": "2026-05-31 11:43:52",
+        "type": "mauvais_mdp",
+        "message": "Echec de connexion pour l'email : elena.p@email.com"
+    }
+]

@@ -1,0 +1,190 @@
+[
+    {
+        "id": 1,
+        "client_id": 1,
+        "articles": [
+            {
+                "plat_id": 203,
+                "quantite": 1
+            },
+            {
+                "plat_id": 302,
+                "quantite": 2
+            },
+            {
+                "plat_id": 401,
+                "quantite": 1
+            }
+        ],
+        "total": 30.5,
+        "statut": "livree",
+        "type": "livraison",
+        "adresse_livraison": "10 Bd du Port, 95000 Cergy",
+        "infos_complementaires": "Code 4587A - 4ème Étage",
+        "date_commande": "2026-02-01 12:30:00",
+        "date_livraison": "2026-02-01 13:15:00",
+        "livreur_id": 9,
+        "note_repas": 4,
+        "note_livraison": 5,
+        "commentaire": "Très bon couscous, livraison rapide !",
+        "montant_paye": 30.5
+    },
+    {
+        "id": 2,
+        "client_id": 1,
+        "articles": [
+            {
+                "plat_id": 204,
+                "quantite": 1
+            },
+            {
+                "plat_id": 101,
+                "quantite": 1
+            },
+            {
+                "plat_id": 301,
+                "quantite": 1
+            },
+            {
+                "plat_id": 402,
+                "quantite": 2
+            }
+        ],
+        "total": 37.8,
+        "statut": "livree",
+        "type": "livraison",
+        "adresse_livraison": "10 Bd du Port, 95000 Cergy",
+        "infos_complementaires": "Code 4587A - 4ème Étage",
+        "date_commande": "2026-02-10 19:00:00",
+        "date_livraison": "2026-02-10 19:45:00",
+        "livreur_id": 9,
+        "note_repas": 5,
+        "note_livraison": 4,
+        "commentaire": "Francesinha excellente !",
+        "montant_paye": 37.8
+    },
+    {
+        "id": 3,
+        "client_id": 3,
+        "articles": [
+            {
+                "plat_id": 203,
+                "quantite": 2
+            },
+            {
+                "plat_id": 104,
+                "quantite": 1
+            },
+            {
+                "plat_id": 401,
+                "quantite": 1
+            }
+        ],
+        "total": 31.7,
+        "statut": "en_preparation",
+        "type": "livraison",
+        "adresse_livraison": "5 Rue des Epices, 95000 Cergy",
+        "infos_complementaires": "Interphone : Mansouri, 2ème étage",
+        "date_commande": "2026-03-20 12:00:00",
+        "date_livraison": null,
+        "livreur_id": null,
+        "note_repas": null,
+        "note_livraison": null,
+        "commentaire": null,
+        "montant_paye": 31.7
+    },
+    {
+        "id": 4,
+        "client_id": 4,
+        "articles": [
+            {
+                "plat_id": 205,
+                "quantite": 1
+            },
+            {
+                "plat_id": 206,
+                "quantite": 1
+            },
+            {
+                "plat_id": 103,
+                "quantite": 1
+            },
+            {
+                "plat_id": 303,
+                "quantite": 1
+            }
+        ],
+        "total": 39.2,
+        "statut": "en_livraison",
+        "type": "livraison",
+        "adresse_livraison": "8 Allée des Carpates, 95000 Cergy",
+        "infos_complementaires": "Bâtiment B, 3ème étage, porte 12",
+        "date_commande": "2026-03-20 12:15:00",
+        "date_livraison": null,
+        "livreur_id": 9,
+        "note_repas": null,
+        "note_livraison": null,
+        "commentaire": null,
+        "montant_paye": 39.2
+    },
+    {
+        "id": 5,
+        "client_id": 2,
+        "articles": [
+            {
+                "plat_id": 201,
+                "quantite": 1
+            },
+            {
+                "plat_id": 302,
+                "quantite": 1
+            },
+            {
+                "plat_id": 402,
+                "quantite": 1
+            }
+        ],
+        "total": 21.8,
+        "statut": "en_attente",
+        "type": "livraison",
+        "adresse_livraison": "12 Avenue de l'Atlas, 95000 Cergy",
+        "infos_complementaires": "Sonner 2 fois",
+        "date_commande": "2026-03-20 12:30:00",
+        "date_livraison": null,
+        "livreur_id": null,
+        "note_repas": null,
+        "note_livraison": null,
+        "commentaire": null,
+        "montant_paye": 21.8
+    },
+    {
+        "id": 6,
+        "client_id": 5,
+        "articles": [
+            {
+                "plat_id": 202,
+                "quantite": 1
+            },
+            {
+                "plat_id": 301,
+                "quantite": 1
+            },
+            {
+                "plat_id": 403,
+                "quantite": 1
+            }
+        ],
+        "total": 58.9,
+        "statut": "en_attente",
+        "type": "sur_place",
+        "adresse_livraison": null,
+        "infos_complementaires": null,
+        "date_commande": "2026-03-20 13:00:00",
+        "date_livraison": null,
+        "livreur_id": null,
+        "note_repas": null,
+        "note_livraison": null,
+        "commentaire": null,
+        "montant_paye": 58.9
+    }
+]

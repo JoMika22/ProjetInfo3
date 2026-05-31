@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nom": "Menu Voyage en Méditerranée",
+    "description": "Une entrée fraîche et un classique italien.",
+    "prix": 22.00,
+    "plats_inclus": [101, 202, 301] 
+  },
+  {
+    "id": 2,
+    "nom": "Menu Escale à Lisbonne",
+    "description": "Le meilleur du Portugal dans votre assiette.",
+    "prix": 24.50,
+    "plats_inclus": [102, 204, 302]
+  },
+  {
+    "id": 3,
+    "nom": "Menu Tradition des Carpates",
+    "description": "Découvrez les saveurs de la Moldavie.",
+    "prix": 16.00,
+    "plats_inclus": [103, 205]
+  }
+]

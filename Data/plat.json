@@ -1,0 +1,18 @@
+[
+  {"id": 101, "nom": "Buratta et Jambon cru", "categorie": "entree", "prix": 8.90, "allergenes": ["lactose"]},
+  {"id": 102, "nom": "Accras de morue", "categorie": "entree", "prix": 5.90, "allergenes": ["poisson", "gluten"]},
+  {"id": 103, "nom": "Salade moldave", "categorie": "entree", "prix": 4.90, "allergenes": ["poisson", "oeuf"]},
+  {"id": 104, "nom": "Salade marocaine", "categorie": "entree", "prix": 3.90, "allergenes": []},
+  {"id": 201, "nom": "Bacalhau à Brás", "categorie": "plat", "prix": 12.50, "allergenes": ["poisson", "oeuf"]},
+  {"id": 202, "nom": "Pizza Impériale", "categorie": "plat", "prix": 15.00, "allergenes": ["gluten", "lactose", "oeuf"]},
+  {"id": 203, "nom": "Couscous Royal", "categorie": "plat", "prix": 12.90, "allergenes": ["gluten"]},
+  {"id": 204, "nom": "Francesinha de Luxe", "categorie": "plat", "prix": 17.00, "allergenes": ["gluten", "lactose", "oeuf"]},
+  {"id": 205, "nom": "Mămăligă", "categorie": "plat", "prix": 14.50, "allergenes": ["lactose"]},
+  {"id": 206, "nom": "Sarmale", "categorie": "plat", "prix": 12.90, "allergenes": []},
+  {"id": 301, "nom": "Tiramisu", "categorie": "dessert", "prix": 8.90, "allergenes": ["lactose", "oeuf", "gluten"]},
+  {"id": 302, "nom": "Pasteis de Nata (x6)", "categorie": "dessert", "prix": 7.80, "allergenes": ["lactose", "oeuf", "gluten"]},
+  {"id": 303, "nom": "Stracciatella", "categorie": "dessert", "prix": 6.90, "allergenes": ["lactose"]},
+  {"id": 401, "nom": "Eau 1.5L", "categorie": "boisson", "prix": 2.00, "allergenes": []},
+  {"id": 402, "nom": "Ice Tea 33 cL", "categorie": "boisson", "prix": 1.50, "allergenes": []},
+  {"id": 403, "nom": "Vin Blanc Marquis des Lèves", "categorie": "boisson", "prix": 35.00, "allergenes": ["sulfites"]}
+]
