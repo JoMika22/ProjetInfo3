@@ -45,10 +45,6 @@ Le serveur doit rester ouvert tant qu'on utilise le site ; pour l'arrêter, fair
 à l'adresse racine, et les autres pages sont accessibles à leur nom (par exemple
 `http://localhost:8080/carte.php`).
 
-> Le projet a été développé sous Windows avec Laragon, mais il fonctionne de la
-> même manière avec le serveur PHP intégré sous Linux : il suffit que PHP soit
-> installé sur la machine.
-
 ## Organisation des fichiers
 
 Les pages visibles (les « vues ») sont à la racine : `index.php` (accueil),
