@@ -61,6 +61,17 @@ foreach ($commandes as $cmd) {
                         <a href="notation.php?commande_id=<?php echo (int)$commande['id']; ?>" class="btn btn-valider">⭐ Noter cette commande</a>
                     </p>
                 <?php endif; ?>
+    
+                <?php if ($commande['note_repas'] != null): ?>
+                    <div class="card texte-centre">
+                        <h3>Votre avis</h3>
+                        <p>Qualité du repas : <?php echo proteger($commande['note_repas']); ?> / 5</p>
+                        <p>Qualité de la livraison : <?php echo proteger($commande['note_livraison']); ?> / 5</p>
+                        <?php if (!empty($commande['commentaire'])): ?>
+                            <p>« <?php echo proteger($commande['commentaire']); ?> »</p>
+                        <?php endif; ?>
+                    </div>
+                <?php endif; ?>
             </div>
 
             <div class="card">
