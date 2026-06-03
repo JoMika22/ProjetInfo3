@@ -1,13 +1,11 @@
 <?php
 
 // Proteger une chaine avant de l'afficher dans du HTML (anti-XSS)
-// A utiliser sur TOUTE donnee qui vient de l'utilisateur : echo proteger($u['nom']);
 function proteger($texte) {
     return htmlspecialchars($texte, ENT_QUOTES, 'UTF-8');
 }
 
 // Journaliser un incident (mauvais mot de passe, compte bloque, blocage, ...)
-// Les logs sont stockes dans Data/logs.json
 function log_incident($type, $message) {
     $chemin = __DIR__ . '/../Data/logs.json';
     $logs = [];
@@ -24,8 +22,6 @@ function log_incident($type, $message) {
 }
 
 // Verifier si l'utilisateur connecte est bloque.
-// Si oui, on detruit sa session immediatement et on le renvoie a la connexion.
-// A appeler en haut de chaque page protegee, apres session_start().
 function verifier_blocage() {
     if (!isset($_SESSION['utilisateur_id'])) return;
     $u = trouver_par_id($_SESSION['utilisateur_id']);
