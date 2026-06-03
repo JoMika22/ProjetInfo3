@@ -65,6 +65,7 @@ foreach ($commandes as $c) {
                     <li>
                         <?php echo proteger($cmd['date_commande']); ?> - <?php echo proteger($cmd['total']); ?>€ 
                         (<?php echo proteger($cmd['statut']); ?>)
+                            - <a href="suivi_commande.php?commande_id=<?php echo (int)$cmd['id']; ?>">🧾 Détails</a>
                         <?php if ($cmd['statut'] != 'livree'): ?>
                             - <a href="suivi_commande.php?commande_id=<?php echo (int)$cmd['id']; ?>">📍 Suivre</a>
                         <?php endif; ?>
