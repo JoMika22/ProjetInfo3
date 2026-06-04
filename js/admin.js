@@ -1,4 +1,3 @@
-// Phase 4 - Blocage / deblocage d'un utilisateur en asynchrone (fetch + async/await)
 // Appele depuis le bouton de la page admin (profil detaille d'un utilisateur)
 
 async function basculerBlocage(userId, action) {
