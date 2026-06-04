@@ -1,8 +1,6 @@
 // Quand on clique sur "Modifier", on transforme les <span> en <input>
 function activerModification() {
     // Petite fonction qui remplace le texte d'un span par un champ de saisie.
-    // On utilise .value (et non innerHTML) pour que les apostrophes/guillemets
-    // dans l'adresse ne cassent rien (ex: "Avenue de l'Atlas").
     function transformer(idSpan, idInput) {
         var span = document.getElementById(idSpan);
         var valeur = span.textContent;
