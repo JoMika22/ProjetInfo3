@@ -1,8 +1,7 @@
-// Phase 4 (bonus) - Mise a jour automatique de la barre de suivi (requete asynchrone).
 // Toutes les 5 secondes, on demande au serveur le statut de la commande.
 // Si le statut a change, on redessine la barre sans recharger la page.
 
-// Etapes selon le type (doit correspondre a script_php/suivi.php)
+// Etapes selon le type
 function etapesPour(type) {
     if (type === "livraison") {
         return [
